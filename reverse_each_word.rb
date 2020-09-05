@@ -5,4 +5,5 @@ reverse_each_word(string)
     last_array.insert(x)
   end
   last_array.join
+  last_array
 end

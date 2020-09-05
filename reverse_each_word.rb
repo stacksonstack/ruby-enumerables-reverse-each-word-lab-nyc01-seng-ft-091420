@@ -1,9 +1,6 @@
-reverse_each_word(string)
-  new_array = string.split("")
-  last_array = []
-  new_array.each do |x|
-    last_array.insert(x)
+def reverse_each_word(str)
+  strArr = str.split(" ").collect do |elm|
+    elm.reverse
   end
-  last_array = last_array.join
-  last_array
+  strArr.join(' ')
 end
